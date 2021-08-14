@@ -11,9 +11,6 @@ document.querySelector("button").addEventListener("click",setBackground);
 let paragraf1 = document.querySelector(".p1");
 let paragraf2 = document.querySelector(".p2");
 
-
-
-
 function setBackground(){
 paragraf1.className = "red";
 paragraf2.className = "yellow";
